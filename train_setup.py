@@ -5,43 +5,43 @@ import numpy as np
 from variables import *
 from preprocess import load_experimental_data, preprocess, augment_data
 
-# 2510 Trial imports
-from cone1 import construct_cone1
-from hemisphere1 import construct_hemisphere1
-from octohexapentaprism1 import construct_octohexapentaprism1
-from octohexapentaprism2 import construct_octohexapentaprism2
-from octohexaprism1 import construct_octohexaprism1
-from octohexaprism2 import construct_octohexaprism2
-from pyramid1 import construct_pyramid1
-from random1 import construct_random1
-#from step_pyramid1 import construct_steppyramid1, plot_surface
-from tower3 import construct_tower3
-# 1911 Trial imports
-from tetrahedron1 import construct_tetrahedron1
-from cutcylinder2 import construct_cutcylinder2
-from parallelogram1 import construct_parallelogram1
-from cutcylinder1 import construct_cutcylinder1
-from cutcylinder2 import construct_cutcylinder2
-from pyramidrow4 import construct_pyramidrow4
-from pyramidrow3 import construct_pyramidrow3  
-from pyramidrow2 import construct_pyramidrow2
-#from parallelogram3 import construct_parallelogram3
-#from torus2 import construct_torus2
-#from paralellogram2 import construct_parallelogram2
-#from pyramidrow1 import construct_pyramidrow1
-from pentaprism2 import construct_pentaprism2
-from pentaprism1 import construct_pentaprism1
-#from torus3 import construct_torus3
-#from straightslot2 import construct_straightslot2
-#from torus1 import construct_torus1
-from octaprism1 import construct_octaprism1
-from octaprism2 import construct_octaprism2
-from icositetragon2 import construct_icositetragon2
-from dodecaprism3 import construct_dodecaprism3
-#from hexagon2 import construct_hexagon2
-from hexagon1 import construct_hexagon1
-from dodecaprism2 import construct_dodecaprism2
-#from step1 import construct_step1
+# 25/10 Trial imports
+from labels.cone1 import construct_cone1
+from labels.hemisphere1 import construct_hemisphere1
+from labels.octohexapentaprism1 import construct_octohexapentaprism1
+from labels.octohexapentaprism2 import construct_octohexapentaprism2
+from labels.octohexaprism1 import construct_octohexaprism1
+from labels.octohexaprism2 import construct_octohexaprism2
+from labels.pyramid1 import construct_pyramid1
+from labels.random1 import construct_random1
+#from labels.step_pyramid1 import construct_steppyramid1, plot_surface
+from labels.tower3 import construct_tower3
+# 19/11 Trial imports
+from labels.tetrahedron1 import construct_tetrahedron1
+from labels.cutcylinder2 import construct_cutcylinder2
+from labels.parallelogram1 import construct_parallelogram1
+from labels.cutcylinder1 import construct_cutcylinder1
+from labels.cutcylinder2 import construct_cutcylinder2
+from labels.pyramidrow4 import construct_pyramidrow4
+from labels.pyramidrow3 import construct_pyramidrow3  
+from labels.pyramidrow2 import construct_pyramidrow2
+#from labels.parallelogram3 import construct_parallelogram3
+#from labels.torus2 import construct_torus2
+#from labels.paralellogram2 import construct_parallelogram2
+#from labels.pyramidrow1 import construct_pyramidrow1
+from labels.pentaprism2 import construct_pentaprism2
+from labels.pentaprism1 import construct_pentaprism1
+#from labels.torus3 import construct_torus3
+#from labels.straightslot2 import construct_straightslot2
+#from labels.torus1 import construct_torus1
+from labels.octaprism1 import construct_octaprism1
+from labels.octaprism2 import construct_octaprism2
+from labels.icositetragon2 import construct_icositetragon2
+from labels.dodecaprism3 import construct_dodecaprism3
+#from labels.hexagon2 import construct_hexagon2
+from labels.hexagon1 import construct_hexagon1
+from labels.dodecaprism2 import construct_dodecaprism2
+#from labels.step1 import construct_step1
 
 
 # Import the validation heightmaps:
