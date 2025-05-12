@@ -20,9 +20,11 @@ These sets are passed to *train.py* to train the *cnn.py* model, a U-Net archite
 
 ### Going forward:
 
-Larger training data is desireable. Obviously one way is to continue further with more object design and printing, and heightmap creations. A key issue with this is that it's a cumbersome process that will not yield a great deal of data; one alternative not sought after was doing this process in conjunction with virtual training using rendering software. For example, Blender would allow for a replica of the apparatus with LEDs and a camera without the need for printing each design. If more sample objects could be designed in Blender for use, and heightmap renders exported to Python for training, this would streamline the process and negate the need to manually build each heightmap (unless there exists a workaround using a Solidworks-Python mesh export).
+Larger training data is desireable. Obviously one way is to continue further with more object design and printing, and heightmap creations. A key issue with this is that it's a cumbersome process that will not yield a great deal of data; one alternative not sought after was doing this process in conjunction with virtual training using rendering software. For example, Blender would allow for a replica of the apparatus with LEDs and a camera without the need for printing each design. If more sample objects could be designed in Blender, and heightmap renders exported to Python for training, this would streamline the process and negate the need to manually build each heightmap (unless there exists a workaround using a Solidworks-Python mesh export).
 
-Something else of note was a similar approach by training on procedurally-generated object meshes, starting with primitive shapes like cubes, then evolving to a cube with a sphere attached, etc. This would allow for far greater sample shape diversity, and quantity. 
+Something else of note was a similar approach by training on procedurally-generated object meshes, starting with primitive shapes like cubes, then evolving to a cube with a sphere attached, etc. This would allow for far greater sample shape diversity, and quantity. Seen in: [https://ieeexplore.ieee.org/document/8578496] (D. Yang and J. Deng, "Shape from Shading Through Shape Evolution," 2018).
+
+
 
 
 
