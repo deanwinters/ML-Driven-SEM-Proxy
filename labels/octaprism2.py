@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"..")))
+
 import numpy as np
 from variables import scaling, px, centre, X_mm, Y_mm, octaprism2_radius, octaprism2_height,octaprism2_angle
 from plot import plot_surface

@@ -1,3 +1,8 @@
+# Root import (for one level ./subfolders/ project structure)
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"..")))
+
 import numpy as np
 from variables import scaling, px, centre, X_mm, Y_mm, dodecaprism2_radius, dodecaprism2_height, dodecaprism2_top_radius
 from plot import plot_surface

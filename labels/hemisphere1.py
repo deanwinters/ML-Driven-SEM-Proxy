@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"..")))
+
 import numpy as np
 from utils.variables import scaling, px, centre, X_mm, Y_mm, hemisphere1_cuboid_size, hemisphere1_cuboid_height, hemisphere1_dome_radius
 from utils.plot import plot_surface

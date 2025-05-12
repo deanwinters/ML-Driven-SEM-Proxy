@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"..")))
+
 import numpy as np
 from variables import scaling, px, centre, X_mm, Y_mm, draftcuboid3_base_length, draftcuboid3_base_width, draftcuboid3_height, draftcuboid3_angle,draftcuboid3_hex_radius, draftcuboid3_hex_height
 from plot import plot_surface

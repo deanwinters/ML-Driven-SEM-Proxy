@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"..")))
+
 import numpy as np
 from variables import scaling, px, centre, X_mm, Y_mm, octohexapentaprism1_oct_radius, octohexapentaprism1_oct_height,octohexapentaprism1_hex_radius, octohexapentaprism1_hex_height, octohexapentaprism1_pent_radius, octohexapentaprism1_pent_height
 from plot import plot_surface

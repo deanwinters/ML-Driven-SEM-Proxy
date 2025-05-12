@@ -1,3 +1,8 @@
+# Root import (for one level ./subfolders/ project structure)
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"..")))
+
 import numpy as np
 from variables import scaling, px, centre, X_mm, Y_mm, tower3_radius, tower3_height, tower3_draft_angle,tower3_cuboid_length,tower3_cuboid1_height,tower3_cuboid2_height,tower3_cuboid3_height,tower3_cuboid4_height
 from plot import plot_surface

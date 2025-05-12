@@ -1,3 +1,5 @@
+# Plotting function used to visually validate each heightmap label, and visually show the neural net predictions
+
 import matplotlib.pyplot as plt
 
 def plot_surface(X_mm, Y_mm, heightmap, name,zlim):
