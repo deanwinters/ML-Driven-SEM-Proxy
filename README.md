@@ -3,6 +3,7 @@
 This repo contains the source code for my capstone project based on an optical proxy of SEM. This is by multi-illumination using an Arduino and custom-built apparatus with 20 LEDs captures the shadows cast by sample objects due to its surface profile. This data then trains a deep learning model for prediction on unseen object or surface profiles.
 
 Google Drive of other relevant items: [https://drive.google.com/drive/folders/1SzSKZFSiBisU1yFz37NeG9mVT7Agow8f?usp=sharing].
+
 Contact: deanpwinters@gmail.com ; dwinters@tcd.ie
 
 ### Apparatus:
